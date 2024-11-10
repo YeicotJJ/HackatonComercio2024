@@ -2,4 +2,14 @@
     <string name="app_name">Chaski App</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="tipo_incidente_options">
+        <item>Asalto</item>
+        <item>Asesinato</item>
+        <item>Secuestro</item>
+        <item>Incendio</item>
+        <item>Accidente de tránsito</item>
+        <item>Obstrucción del tránsito</item>
+    </string-array>
+
 </resources>
