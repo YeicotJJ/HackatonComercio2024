@@ -13,7 +13,7 @@
         android:theme="@style/Base.Theme.ChaskiApp"
         tools:targetApi="31">
         <activity
-            android:name=".AlertaActivity"
+            android:name=".AlertActivity"
             android:exported="false" />
         <activity
             android:name=".SingUp"
@@ -22,9 +22,8 @@
             android:name=".SingIn"
             android:exported="false" />
         <activity
-            android:name=".SignIn"
-            android:exported="false"
-            android:theme="@style/Theme.ChaskiApp" />
+            android:name=".Activity.EditProfile"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

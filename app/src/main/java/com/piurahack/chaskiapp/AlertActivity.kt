@@ -5,13 +5,14 @@ import android.widget.ArrayAdapter
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
+import com.piurahack.chaskiapp.databinding.ActivityMainBinding
 import androidx.core.view.WindowInsetsCompat
 
 class AlertActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_alert)
-
+        var binding: ActivityMainBinding? = null
 
         // Inflar el layout con View Binding
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -29,4 +30,5 @@ class AlertActivity : AppCompatActivity() {
 
         // Asignar el adaptador al Spinner utilizando View Binding
         //binding.tipoIncidenteSpinner.adapter = adapter
+    }
 }
