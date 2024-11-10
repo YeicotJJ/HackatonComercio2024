@@ -50,7 +50,7 @@
                     android:id="@+id/profile_image"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:src="@drawable/profile_placeholder"
+                    android:src="@drawable/images"
                     app:civ_border_color="#FF000000"
                     app:civ_border_width="2dp" />
 
