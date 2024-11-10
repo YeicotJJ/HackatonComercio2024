@@ -13,6 +13,16 @@
         android:theme="@style/Theme.ChaskiApp"
         tools:targetApi="31">
         <activity
+            android:name=".SingUp"
+            android:exported="false" />
+        <activity
+            android:name=".SingIn"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false"
+            android:theme="@style/Theme.ChaskiApp" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
