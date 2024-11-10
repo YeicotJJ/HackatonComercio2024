@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAlignment="viewStart"
-            android:text="Create"
+            android:text="Añadir"
             android:padding="8dp"
             android:textColor="@color/primary"
             android:layout_marginStart="12dp"
@@ -30,18 +30,18 @@
             android:textSize="25dp" />
 
         <ImageView
+            android:id="@+id/cancelButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/round_clear_24"
-            android:layout_marginLeft="600dp"
+            android:layout_marginLeft="250dp"
             android:layout_marginTop="8dp"
-            android:id="@+id/cancelButton"/>
+            android:src="@drawable/round_clear_24" />
 
     </LinearLayout>
 
 
     <LinearLayout
-        android:id="@+id/layoutVideo"
+        android:id="@+id/layoutAlerta"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -51,12 +51,12 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/baseline_groups_24"/>
+            android:src="@drawable/round_add_alert_24"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Upload a video"
+            android:text="Un nuevo Incidente"
             android:textColor="@color/primary"
             android:layout_marginLeft="30dp"
             android:textSize="16sp"/>
@@ -64,7 +64,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/layoutShorts"
+        android:id="@+id/layoutComunidad"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -74,38 +74,12 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/baseline_person_24"/>
+            android:src="@drawable/round_group_add_24"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Create a short"
-            android:textColor="@color/primary"
-            android:layout_marginLeft="30dp"
-            android:textSize="16sp"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/layoutLive"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingTop="10dp"
-        android:paddingBottom="30dp">
-
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/baseline_map_24"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Go live"
+            android:text="Una nueva Comunidad"
             android:textColor="@color/primary"
             android:layout_marginLeft="30dp"
             android:textSize="16sp"/>

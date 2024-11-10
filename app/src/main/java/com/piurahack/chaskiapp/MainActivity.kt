@@ -56,37 +56,28 @@ class MainActivity : AppCompatActivity() {
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
         dialog.setContentView(R.layout.bottom_sheet_layout)
 
-        val videoLayout = dialog.findViewById<LinearLayout>(R.id.layoutVideo)
-        val shortsLayout = dialog.findViewById<LinearLayout>(R.id.layoutShorts)
-        val liveLayout = dialog.findViewById<LinearLayout>(R.id.layoutLive)
+        val alertaLayout = dialog.findViewById<LinearLayout>(R.id.layoutAlerta)
+        val comunidadLayout = dialog.findViewById<LinearLayout>(R.id.layoutComunidad)
         val cancelButton = dialog.findViewById<ImageView>(R.id.cancelButton)
 
-        videoLayout.setOnClickListener {
+        alertaLayout.setOnClickListener {
             dialog.dismiss()
             Toast.makeText(
                 this@MainActivity,
-                "Upload a Video is clicked",
+                "Has creado una alerta",
                 Toast.LENGTH_SHORT
             ).show()
         }
 
-        shortsLayout.setOnClickListener {
+        comunidadLayout.setOnClickListener {
             dialog.dismiss()
             Toast.makeText(
                 this@MainActivity,
-                "Create a short is Clicked",
+                "Has creado una comunidad",
                 Toast.LENGTH_SHORT
             ).show()
         }
 
-        liveLayout.setOnClickListener {
-            dialog.dismiss()
-            Toast.makeText(
-                this@MainActivity,
-                "Go live is Clicked",
-                Toast.LENGTH_SHORT
-            ).show()
-        }
 
         cancelButton.setOnClickListener { dialog.dismiss() }
 
