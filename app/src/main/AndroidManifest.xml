@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ChaskiApp"
         tools:targetApi="31">
         <activity
+            android:name=".AlertaActivity"
+            android:exported="false" />
+        <activity
             android:name=".SingUp"
             android:exported="false" />
         <activity
