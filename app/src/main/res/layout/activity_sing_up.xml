@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/singup"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/background"
     android:gravity="center"
     android:orientation="vertical"
@@ -50,10 +51,10 @@
 
         <!--Contraseña-->
         <TextView
-            android:layout_marginTop="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_marginTop="16dp"
             android:paddingStart="5dp"
             android:text="Contraseña"
             android:textColor="@color/white"
@@ -71,10 +72,10 @@
 
         <!--DNI-->
         <TextView
-            android:layout_marginTop="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_marginTop="16dp"
             android:paddingStart="5dp"
             android:text="DNI"
             android:textColor="@color/white"
@@ -92,10 +93,10 @@
 
         <!--Correo-->
         <TextView
-            android:layout_marginTop="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_marginTop="16dp"
             android:paddingStart="5dp"
             android:text="Correo"
             android:textColor="@color/white"
@@ -113,10 +114,10 @@
 
         <!--Celular-->
         <TextView
-            android:layout_marginTop="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
+            android:layout_marginTop="16dp"
             android:paddingStart="5dp"
             android:text="Celular"
             android:textColor="@color/white"
